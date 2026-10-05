@@ -1,9 +1,9 @@
 package OldMacDonald;
 
 public class Chick extends Animal {
-    private String type = "Chick";
-    private String sound1 = "chuck";
-    private String sound2 = "cheep";
+    private String type;
+    private String sound1;
+    private String sound2;
 
   public Chick(String type, String sound1, String sound2) {
     this.type = type;
