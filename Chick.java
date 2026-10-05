@@ -2,8 +2,8 @@ package OldMacDonald;
 
 public class Chick extends Animal {
     private String type = "Chick";
-    private String sound1 = "";
-    private String sound2 = "";
+    private String sound1 = "chuck";
+    private String sound2 = "cheep";
 
   public Chick(String type, String sound1, String sound2) {
     this.type = type;
@@ -23,7 +23,7 @@ public class Chick extends Animal {
 
         }
         else if (randomNum == 2) {
-            sound2 = "chep";
+            sound2 = "cheep";
             sound2 = result;
         } 
         return result;
