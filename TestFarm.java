@@ -2,11 +2,10 @@ package OldMacDonald;
 
 public class TestFarm {
     public static void main(String[] args) {
-        Farm animalFarm = new Farm();
-        animalFarm.animalSounds();
 
-
-        /*
+       Farm animalFarm = new Farm();
+       animalFarm.animalSounds();
+       /* 
        Cow cow = new Cow("cow", "moo");
        System.out.println("The " + cow.getType() + " goes " + cow.getSound());
 
