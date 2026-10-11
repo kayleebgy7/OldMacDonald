@@ -1,11 +1,14 @@
 package OldMacDonald;
 
 public class Animal {
-
-    public String getSound() {
+    //method to return the sound of the name of the animal
+    public String getSound() 
+    {
         return "sound";
     }
-    public String getType() {
+    //method to return the type of the animal
+    public String getType() 
+    {
         return "type";
     }
 }
